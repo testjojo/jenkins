@@ -16,3 +16,4 @@ if __name__ == '__main__':
     print("-----------开始--------------")
     # one.py表示执行哪个命令
     pytest.main(["-s", "one.py"])
+    # 在命令行输入python one.py执行该文件
