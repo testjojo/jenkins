@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import pytest
+
+
 class Test:
     def setup_class(self):
         print("setup_class1")
@@ -29,6 +32,7 @@ class Test2:
     def teardown(self):
         print("------end2--------")
 
-    def test1(self):
+    @pytest.mark.run(order=0)
+    def test2(self):
         print("-----test2------")
 # 运行时用pytest -s setup_teardown.py
