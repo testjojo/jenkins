@@ -35,4 +35,5 @@ class Test2:
     @pytest.mark.run(order=0)
     def test2(self):
         print("-----test2------")
+        assert 0
 # 运行时用pytest -s setup_teardown.py
