@@ -1,0 +1,8 @@
+[
+  "scripts/setup_teardown.py::Test::()::teardown_class",
+  "scripts/setup_teardown.py::Test::()::teardown",
+  "scripts/setup_teardown.py::Test::()::test1",
+  "scripts/setup_teardown.py::Test2::()::teardown_class",
+  "scripts/setup_teardown.py::Test2::()::teardown",
+  "scripts/setup_teardown.py::Test2::()::test2"
+]
